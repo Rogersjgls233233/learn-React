@@ -2,7 +2,7 @@ import React from 'react'; //创建组件，虚拟dom元素，生命周期
 import ReactDom from 'react-dom'; //把创建好的组件和虚拟dom放到页面上展示
 
 // 不做单独配置的话不能省略后缀名
-import Hello from './components/Hello.jsx';
+import Hello from './components/Hello';
 //创建虚拟dom元素
 // 参数1：创建元素的类型，字符串，表示元素名称
 // 参数2：一个对象或null，表示当前dom属性
