@@ -21,7 +21,10 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.json']
+    extensions: ['.js', '.jsx', '.json'],
     // 表示这几个文件的后缀名
+    alias: {
+      '@': path.join(__dirname, './src')
+    }
   }
 };
