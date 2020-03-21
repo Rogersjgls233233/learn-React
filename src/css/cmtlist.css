@@ -1,0 +1,9 @@
+.title {
+  color: brown;
+}
+
+
+
+
+/* css模块化只针对类和id选择器生效 */
+/* :global可以使类名不被模块化 */

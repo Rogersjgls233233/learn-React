@@ -23,6 +23,9 @@ class Dog extends Animal {
     console.log('hello');
   }
 }
+// 使用class创建的组件是有状态组件
+// 使用构造函数创建的组件时无状态组件
+// 区别：有无state,有无生命周期函数
 const a1 = new Dog('大黄', 3, '123456789');
 a1.sayHello();
 console.log(a1);

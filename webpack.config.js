@@ -17,7 +17,14 @@ module.exports = {
         test: /\.js|jsx$/,
         use: 'babel-loader',
         exclude: /node_modules/
-      } //不要忘记加exclude排除项
+      }, //不要忘记加exclude排除项,
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader?modules&localIdentName=[path][name]-[local]-[hash:5]'
+        ]
+      }
     ]
   },
   resolve: {
